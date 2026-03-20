@@ -23,17 +23,21 @@
     margin-top: 24px;
         font-weight: 400;
         font-size: 24px;
+            letter-spacing: 0;
 }
 .home-text-two{
     margin-top: 24px;
     font-weight: 400;
     font-size: 14px;
+    letter-spacing: 0;
+    width: 293px;
 }
 .home-text-three{
     margin-top: 48px;
         font-weight: 400;
         font-size: 14px;
         margin-bottom: 13px;
+        letter-spacing: 0;
 }
 .desk{
     display: none;
@@ -65,5 +69,46 @@
 }
 .home-container{
     padding-bottom: 120px;
+}
+}
+/* How to Play */
+.how-list{
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.how-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 24px;
+        padding: 12px;
+        width: 167px;
+        height: 130px;
+        background: #161740;
+            font-weight: 400;
+            font-size: 14px;
+}
+.how-item img{
+width: 32px;
+height: 32px;
+}
+@media only screen and (min-width: 1440px) {
+ .how-list{
+    margin-top: 32px;
+    justify-content: center;
+    gap: 48px;
+ }
+ .how-item img {
+    width: 48px;
+    height: 48px;
+}
+.how-item{
+    width: 200px;
+        height: 175px;
+        padding: 24px 22px;
+        font-size: 16px;
 }
 }
