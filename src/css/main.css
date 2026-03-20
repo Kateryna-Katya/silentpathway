@@ -112,3 +112,59 @@ height: 32px;
         font-size: 16px;
 }
 }
+/* Escape Mechanics */
+.escape-text{
+    font-weight: 400;
+        font-size: 14px;
+}
+.escape-list{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 8px;
+   margin-bottom: 8px;
+}
+.escape-item{
+    border-radius: 999px;
+        padding: 16px 24px;
+        width: 343px;
+        height: 56px;
+        background: #382446;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: end;
+        font-weight: 400;
+            font-size: 14px;
+            letter-spacing: normal;
+}
+.two,
+.four{
+        justify-content: start;
+}
+@media only screen and (min-width: 1440px) {
+.escape-text{
+    font-size: 16px;
+}
+.escape-list{
+    margin-top: 64px;
+    column-gap: 300px;
+    gap: 24px;
+height: 136px;
+flex-wrap: wrap;
+}
+.two{
+    flex-direction: row-reverse;
+    justify-content: end;
+}
+.three{
+flex-direction: row-reverse;
+justify-content: start;
+}
+.escape-img{
+position: absolute;
+left: 41.5%;
+bottom: 11%;
+}
+}
