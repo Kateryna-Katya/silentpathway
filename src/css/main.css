@@ -58,6 +58,7 @@
     display: block;
 }
 .home-text-two{
+    width: 100%;
     margin-top: 32px;
     font-weight: 500;
         font-size: 16px;
