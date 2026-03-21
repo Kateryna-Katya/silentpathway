@@ -304,3 +304,62 @@ padding: 0;
         gap: 24px;
    }
 }
+/* Relaxation & Challenge */
+.relaxation-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.relaxation-text{
+    margin-top: 88px;
+}
+.relaxation-list{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.relaxation-item{
+    border-radius: 16px;
+        padding: 12px;
+        width: 167px;
+        height: 72px;
+    background: #382446;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: normal;
+}
+.relaxation-text-two{
+    font-size: 14px;
+            letter-spacing: normal;
+}
+@media only screen and (min-width: 1440px) {
+ .relaxation-container{
+    flex-direction: row;
+    gap: 48px;
+    justify-content: center;
+    margin-top: 88px;
+ }
+.relaxation-text{
+    margin-top: 0;
+}
+.relaxation-list{
+    width: 464px;
+    gap: 24px;
+}
+.relaxation-item{
+    padding: 16px;
+        width: 220px;
+        height: 56px;
+        gap: 16px;
+        font-size: 16px;
+}
+.relaxation-text-two{
+    width: 224px;
+    font-size: 16px;
+    text-align: left;
+}
+}
