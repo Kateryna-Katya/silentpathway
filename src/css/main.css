@@ -398,8 +398,42 @@ font-weight: 400;
     padding: 16px 24px;
         width: 400px;
         height: 56px;
+        font-size: 16px;
   }
   .why-left{
    justify-content: end;
   }
+}
+/* Testimonials */
+.testimonials-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.testimonials-item{
+    border-radius: 24px;
+        padding: 24px;
+        width: 343px;
+        height: 124px;
+background: #382446;
+display: flex;
+align-items: center;
+gap: 8px;
+font-weight: 400;
+    font-size: 12px;
+    letter-spacing: normal;
+    text-align: left;
+}
+.testimonials-img-wrapper{
+    display: flex;
+    width: 75px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    font-weight: 700;
+        font-size: 12px;
+            letter-spacing: normal;
+}
+.reviews-text{
+    width: 212px;
 }
