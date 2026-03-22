@@ -363,3 +363,43 @@ padding: 0;
     text-align: left;
 }
 }
+/* Why Arrow Pipe */
+.why-list{
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.why-item{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 12px;
+border-radius: 16px;
+    padding: 12px;
+    width: 167px;
+    height: 96px;
+background: #161740;
+font-weight: 400;
+    font-size: 14px;
+    letter-spacing: normal;
+}
+@media only screen and (min-width: 1440px) {
+  .why-list{
+    margin-top: 0;
+    flex-direction: column;
+    height: 214px;
+    gap: 24px;
+  }
+  .why-item{
+    flex-direction: row;
+    padding: 16px 24px;
+        width: 400px;
+        height: 56px;
+  }
+  .why-left{
+   justify-content: end;
+  }
+}
